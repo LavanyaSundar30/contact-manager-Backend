@@ -1,0 +1,11 @@
+{
+	"app": {
+		"port": 5000,
+		"db": {
+			"protocal": "mongodb://",
+			"host": "127.0.0.1",
+			"port": "27017",
+			"name": "contact-manager"
+		}
+	}
+}
