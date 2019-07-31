@@ -39,28 +39,6 @@ server.use(cors({origin: 'http://localhost:4200'}));
 server.listen(config.app.port, () => {
 	console.log(`Service is listening to ${config.app.port}`);
 });
-// server.use(logger('dev'));
-// server.use(bodyParser.json());
-// server.use(bodyParser.urlencoded({ extended: false }));
-// server.use(cookieParser());
-// server.use(express.static(path.join(__dirname, 'public')));
 
-// server.use('/profile', profile);
-
-// server.use(function(req, res, next) {
-//   var err = new Error('Not Found');
-//   err.status = 404;
-//   next(err);
-// });
-
-// server.use(function(err, req, res, next) {
-//   // set locals, only providing error in development
-//   res.locals.message = err.message;
-//   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-//   // render the error page
-//   res.status(err.status || 500);
-//   res.render('error');
-// });
 
 module.exports = server;
