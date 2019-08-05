@@ -23,8 +23,6 @@ class uploadController{
 
     async list(request){
 
-    let searchParam = {userId: userSession._id};
-
     if(request.name){
         searchParam.name = request.name;
     }
